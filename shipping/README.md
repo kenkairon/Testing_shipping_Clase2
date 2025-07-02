@@ -10,11 +10,10 @@ Caso de uso: una tienda en línea necesita calcular el costo de envío según el
 
 Si el paquete es frágil, se añade un recargo de $5 extra.
 
-Peso del paquete	¿Frágil?	Tarifa esperada
-≤ 1 kg	❌ No	    $5
-≤ 1 kg	✅ Sí	    $10
-> 1 kg y ≤ 5 kg	     ❌ No	    $10
-> 1 kg y ≤ 5 kg	     ✅ Sí	    $15
-> 5 kg	❌ No	    $20
-> 5 kg	✅ Sí	    $25
+1- Peso <= 1k, no frágil
+2- Peso <= 1k, frágil
+3- 1 kg < peso <= 5 k, no frágil
+4- 1 kg < peso <= 5 k, frágil
+5- Peso > 5 k, frágil
+6- Peso > 5 k, no frágil
 
